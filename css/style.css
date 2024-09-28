@@ -1,0 +1,82 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #23153d;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ddd;
+  padding: 10px;
+  width: 750px;
+  height: 220px;
+  border-radius: 12px;
+}
+
+.inc,
+.dec,
+.stop,
+.start,
+.reset {
+  background-color: #8964ce;
+  padding: 5px 50px;
+  border-radius: 12px;
+  font-size: 15px;
+}
+
+hr {
+  background-color: #8964ce;
+  height: 4px;
+}
+
+.hours::before {
+  content: 'Hours';
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  bottom: -15px;
+  left: 30px;
+}
+
+.minutes::before {
+  content: 'Minutes';
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  bottom: -15px;
+  left: 40px;
+}
+
+.seconds::before {
+  content: 'Seconds';
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  bottom: -15px;
+  left: 40px;
+}
+
+.btn-s {
+  top: 20px
+}
+.btn-stop {
+  pointer-events: none;
+}
+
+/* 
+
+*/
+
+.r-15 {
+  right: 15px;
+}
